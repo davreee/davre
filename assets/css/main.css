@@ -2192,12 +2192,17 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
+			position: relative;
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
 
 			.image.fit img {
 				width: 100%;
+			}
+
+			.image.fit:hover {
+				background: rgba(31, 31, 31, 0.397);
 			}
 
 		.image.main {
@@ -2219,6 +2224,39 @@ input, select, textarea {
 			}
 
 /* List */
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #000000;
+  }
+  
+  .overlay:hover {
+	opacity: 1.0;
+  }
+
+  .text {
+	position: absolute;
+	color: white;
+	opacity: 1;
+	font-size: 35px;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+  .text:hover{
+	  opacity: 1;
+  }
 
 	ol {
 		list-style: decimal;
