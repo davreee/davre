@@ -2976,7 +2976,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #16427A;
 		}
 
 			.spotlights > section > .image {
@@ -2995,7 +2995,7 @@ input, select, textarea {
 				}
 
 				.spotlights > section > .image:before {
-					background: rgba(36, 41, 67, 0.9);
+					background: #16427A;
 					content: '';
 					display: block;
 					height: 100%;
@@ -3038,7 +3038,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				background-color: #16427A;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3046,6 +3046,7 @@ input, select, textarea {
 					-webkit-align-items: -webkit-flex-end;
 					-ms-align-items: -ms-flex-end;
 					align-items: flex-end;
+					background-color: #16327A;
 				}
 
 		@media screen and (max-width: 1680px) {
@@ -3276,6 +3277,7 @@ input, select, textarea {
 			-webkit-animation: reveal-header 0.35s ease;
 			-ms-animation: reveal-header 0.35s ease;
 			animation: reveal-header 0.35s ease;
+			background: #2A527D;
 		}
 
 		#header.alt {
@@ -3301,7 +3303,7 @@ input, select, textarea {
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4;
+				color: #2A527D;
 			}
 
 			#header.alt.style3 .logo strong {
@@ -3533,7 +3535,7 @@ input, select, textarea {
 		}
 
 		#banner.style2:after {
-			background-color: #8d82c4;
+			background-color: #2A527D;
 		}
 
 		#banner.style3:after {
@@ -3836,7 +3838,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		background: rgba(36, 41, 67, 0.9);
+		background: #2A527D;
 		box-shadow: none;
 		height: 100%;
 		left: 0;
@@ -3964,7 +3966,7 @@ input, select, textarea {
 			}
 
 	body.is-ie #menu {
-		background: rgba(42, 47, 74, 0.975);
+		background: #2A527D;
 	}
 
 	body.is-menu-visible #wrapper {
